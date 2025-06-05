@@ -198,7 +198,7 @@ header.masthead {
     padding-bottom: calc(10rem - 56px);*/
     width: 34%;
     background-image: url('../img/title.jpeg');
-    background-position: 150% center;
+    background-position: 200% center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
