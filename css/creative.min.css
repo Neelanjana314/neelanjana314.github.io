@@ -172,7 +172,7 @@ img::-moz-selection {
 
 .side-image {
   width: 33%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -184,11 +184,13 @@ img::-moz-selection {
 
 
 .side-image.left {
-  background-image: url(../img/left-image.jpeg);
+  /*background-image: url(../img/left-image.jpeg);*/
+    background-color: red;
 }
 
 .side-image.right {
-  background-image: url(../img/right-image.jpeg);
+  /*background-image: url(../img/right-image.jpeg);*/
+    background-color: blue;
 }
 
 header.masthead {
