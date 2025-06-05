@@ -166,15 +166,15 @@ img::-moz-selection {
 .masthead-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
 }
 
 .side-image {
   width: 33%;
-  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -194,15 +194,20 @@ img::-moz-selection {
 header.masthead {
    /* padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);*/
-    width: 33%;
-    height: 300px;
+    width: 34%;
     background-image: url(../img/title.jpeg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header.masthead hr {
