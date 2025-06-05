@@ -177,11 +177,11 @@ img::-moz-selection {
 }
 
 .side-image.left {
-  background-image: url('../img/left-image.jpg');
+  background-image: url('../img/left-image.jpeg');
 }
 
 .side-image.right {
-  background-image: url('../img/right-image.jpg');
+  background-image: url('../img/right-image.jpeg');
 }
 
 header.masthead {
