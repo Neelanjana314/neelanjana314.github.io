@@ -11,7 +11,7 @@ body {
 hr {
     max-width: 50px;
     border-width: 3px;
-    border-color: #f05f40;
+    border-color: #008080;
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #008080;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
 }
 
 a:hover {
-    color: #f05f40;
+    color: #008080;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-primary {
-    background-color: #f05f40 !important;
+    background-color: #008080 !important;
 }
 
 .bg-dark {
@@ -87,12 +87,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #f05f40;
+    color: #008080;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #f05f40;
+    color: #008080;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -103,11 +103,11 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #f05f40;
+    color: #008080;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-    color: #f05f40 !important;
+    color: #008080 !important;
     background-color: transparent;
 }
 
@@ -147,11 +147,11 @@ img::-moz-selection {
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-        color: #f05f40;
+        color: #008080;
     }
 
     #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-        color: #f05f40;
+        color: #008080;
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -159,7 +159,7 @@ img::-moz-selection {
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
-        color: #f05f40;
+        color: #008080;
     }
 }
 
@@ -280,7 +280,7 @@ header.masthead p {
 }
 
 .text-primary {
-    color: #f05f40 !important;
+    color: #008080 !important;
 }
 
 .btn {
@@ -296,8 +296,8 @@ header.masthead p {
 }
 
 .btn-primary {
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #008080;
+    border-color: #008080;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
