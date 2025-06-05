@@ -195,6 +195,7 @@ header.masthead {
    /* padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);*/
     width: 34%;
+    height: 100%
     background-image: url(../img/title.jpeg);
     background-position: center;
     background-repeat: no-repeat;
