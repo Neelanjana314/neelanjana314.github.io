@@ -163,11 +163,35 @@ img::-moz-selection {
     }
 }
 
+.masthead-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-image {
+  width: 33%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.side-image.left {
+  background-image: url('../img/left-image.jpg');
+}
+
+.side-image.right {
+  background-image: url('../img/right-image.jpg');
+}
+
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
+    width: 33%;
+    height: 300px;
     background-image: url(../img/title.jpeg);
     background-position: center center;
+    background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
