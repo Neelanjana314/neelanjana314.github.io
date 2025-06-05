@@ -167,6 +167,7 @@ img::-moz-selection {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .side-image {
@@ -176,17 +177,23 @@ img::-moz-selection {
   background-repeat: no-repeat;
 }
 
+
+/*.side-image {
+  background-color: lightblue;
+}*/
+
+
 .side-image.left {
-  background-image: url('../img/left-image.jpeg');
+  background-image: url(../img/left-image.jpeg);
 }
 
 .side-image.right {
-  background-image: url('../img/right-image.jpeg');
+  background-image: url(../img/right-image.jpeg);
 }
 
 header.masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
+   /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);*/
     width: 33%;
     height: 300px;
     background-image: url(../img/title.jpeg);
