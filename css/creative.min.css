@@ -163,7 +163,7 @@ img::-moz-selection {
     }
 }
 
-.masthead-wrapper {
+/*.masthead-wrapper {
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -175,7 +175,7 @@ img::-moz-selection {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
+}*/
 
 
 /*.side-image {
@@ -183,19 +183,19 @@ img::-moz-selection {
 }*/
 
 
-.side-image.left {
-  /*background-image: url(../img/left-image.jpeg);*/
+/*.side-image.left {
+  background-image: url(../img/left-image.jpeg);
     background-color: red;
 }
 
 .side-image.right {
-  /*background-image: url(../img/right-image.jpeg);*/
+  /*background-image: url(../img/right-image.jpeg);
     background-color: blue;
-}
+}*/
 
-header.masthead {
-   /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);*/
+/*header.masthead {
+   padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
     width: 34%;
     background-image: url('../img/title.jpeg');
     background-position: 200% center;
@@ -210,6 +210,16 @@ header.masthead {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}*/
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/neelanjana_title.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header.masthead hr {
